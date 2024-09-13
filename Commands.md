@@ -28,7 +28,7 @@ minikube dashboard
 kubectl expose deployment my-nginx --port=80 --type=LoadBalancer
 ```
 
-## Check
+## Check services
 
 ```bash
 kubectl get services
@@ -39,3 +39,7 @@ kubectl get services
 ```bash
 minikube service my-nginx
 ```
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
